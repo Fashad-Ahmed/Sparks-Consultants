@@ -1,0 +1,92 @@
+
+#team {
+    font-size: 22px;
+}
+
+.brandName {
+    color: #3498db;
+}
+
+#ima {
+    width: 100%;
+    /* max-width: 100%/; */
+    margin-left: 20px;
+    /* display: flex; */
+    /* float: right;
+    top: -150px;
+    position: relative;
+    right: -180px;
+    width:450px;
+    height: 250%; */
+
+}
+
+#header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+
+#header h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+
+#header .brandName {
+    color: #3498db;
+}
+
+#header h2 {
+    color: #484848;
+}
+
+#header #btn {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+
+#header #btn:hover {
+    background: #3498db;
+    color: #fff;
+}
+
+.header-img {
+    text-align: right;
+}
+
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+#foo {
+    background: #add8e6;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translate(10px);
+    }
+
+    100% {
+        transform: translate(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
